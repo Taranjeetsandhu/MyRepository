@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class CDTest {
 
 	@Test
-	public void t10()
+	public void t11()
 	{
 		//System.out.println("Hi I am test t1");
 	//	Assert.assertTrue(true, " ");
