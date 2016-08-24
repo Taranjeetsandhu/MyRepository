@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="mavenSuite">
+<test name="mvnTest">
+<clasees>
+<class name="com.a.c.CTest">
+</class>
+</clasees>
+</test>
+
+</suite>

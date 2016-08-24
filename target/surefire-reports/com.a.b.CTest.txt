@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.a.b.CTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.748 sec <<< FAILURE!
+t2(com.a.b.CTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError:   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.a.b.CTest.t2(CTest.java:18)
+
+t3(com.a.b.CTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError:   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.a.b.CTest.t3(CTest.java:25)
+

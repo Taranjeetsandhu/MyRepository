@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.691 sec <<< FAILURE!
+t2(com.a.b.CTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError:   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.a.b.CTest.t2(CTest.java:18)
+t3(com.a.b.CTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError:   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.a.b.CTest.t3(CTest.java:25)
+t2(com.a.b.DTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError:   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.a.b.DTest.t2(DTest.java:18)
+t3(com.a.b.DTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError:   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.a.b.DTest.t3(DTest.java:25)
