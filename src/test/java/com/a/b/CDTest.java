@@ -3,7 +3,7 @@ package com.a.b;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CTest {
+public class CDTest {
 
 	@Test
 	public void t10()
