@@ -8,5 +8,6 @@ void method()
 	int g;
 	int h;
 	System.out.println("hello");
+	System.out.println("sdad");
 }
 }
