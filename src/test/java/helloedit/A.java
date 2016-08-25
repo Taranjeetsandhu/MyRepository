@@ -9,5 +9,6 @@ void method()
 	int h;
 	System.out.println("hello");
 	System.out.println("sdad");
+	System.out.println("aasf");
 }
 }
